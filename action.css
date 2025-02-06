@@ -1,0 +1,78 @@
+.body{
+    background-image: url(img/nebula-2501324_1920.jpg);
+    background-repeat:repeat-y;
+    height: 100%;
+    
+}
+.header{
+    background-color: #6C4FD6;
+    border: 0px;
+    display: flex;
+    }
+    .Home{
+        width: 100px;
+        height:50px;
+        margin-top: 30px;
+        margin-left: 200px;
+        margin-right: 50px;
+        align-items: center;
+    }
+    .About{
+        width: 100px;
+        height:50px;
+        margin-right: 50px;
+        margin-top: 30px;
+    }
+    
+    .Action{
+        width: 100px;
+        height:50px;
+        margin-right: 200px;
+        background-color: red;
+        margin-top: 30px;
+    }
+    .menu{
+        height: 100%;
+        margin-top: 20px;
+        display: flex;
+        gap: 400px;
+        margin-left: 450px;
+    }
+    .felso{
+        height: 100%;
+        margin-top: 60px;
+        display: flex;
+        gap: 850px;
+        margin-left: 50px;
+    
+        
+    }
+    .also{
+    height: 100%;
+    margin-top: 60px;
+    display: flex;
+    gap: 850px;
+    margin-left: 50px;
+    
+}
+.ar1{
+    background-color: #090DF1;
+    color:yellow;
+    width: 504px;
+    height: 38px;
+    display: block;
+}
+.ar2{
+    background-color: #090DF1;
+    color:yellow;
+    width: 331px;
+    height: 38px;
+    display: block;
+}
+.ar3{
+    background-color: #090DF1;
+    color:yellow;
+    width: 226px;
+    height: 38px;
+    display: block;
+}

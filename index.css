@@ -6,10 +6,10 @@
 
 
 .header{
-background-color: #6C4FD6;
-border: 0px;
-display: flex;
-}
+    background-color: #6C4FD6;
+    border: 0px;
+    display: flex;
+    }
 
 .Home{
     width: 100px;
@@ -18,17 +18,20 @@ display: flex;
     margin-left: 200px;
     margin-right: 50px;
     align-items: center;
+    margin-top: 30px;
 }
 .About{
     width: 100px;
     height:50px;
     margin-right: 50px;
+    margin-top: 30px;
 }
 
 .Action{
     width: 100px;
     height:50px;
     margin-right: 200px;
+    margin-top: 30px;
 }
 .menu{
     height: 100%;
