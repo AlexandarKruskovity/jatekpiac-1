@@ -1,0 +1,29 @@
+.header{
+background-color: #6C4FD6;
+border: 0px;
+display: flex;
+}
+.Home{
+    width: 100px;
+    height:50px;
+    background-color: red;
+    margin-left: 200px;
+    margin-right: 50px;
+    align-items: center;
+}
+.About{
+    width: 100px;
+    height:50px;
+    margin-right: 50px;
+}
+
+.Action{
+    width: 100px;
+    height:50px;
+    margin-right: 200px;
+}
+.menu{
+ height: 100%;
+    background-image: url(img/nebula-2501324_1920.jpg);
+    display: block;
+}
