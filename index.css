@@ -132,6 +132,9 @@
         width: auto;
         display:block
     }
+    .Home{
+ 
+    }
 .menu{
     display: block;
     width: 100%;
@@ -144,8 +147,6 @@
     display: block;
     width: 100%;
 }
-.img{
-    width: auto;
-}
+
 
 }
