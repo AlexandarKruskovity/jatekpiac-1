@@ -2,6 +2,7 @@
     background-image: url(img/nebula-2501324_1920.jpg);
     background-repeat:repeat-y;
     height: 100%;
+    margin: 0%;
 }
 
 
@@ -20,6 +21,7 @@
     align-items: center;
     margin-top: 30px;
 }
+
 .About{
     width: 100px;
     height:50px;
@@ -44,7 +46,7 @@
     height: 100%;
     margin-top: 60px;
     display: flex;
-    gap: 500px;
+    gap: 300px;
     margin-left: 50px;
 
     
@@ -53,7 +55,7 @@
     height: 100%;
     margin-top: 60px;
     display: flex;
-    gap: 500px;
+    gap: 300px;
     margin-left: 50px;
     
 }
@@ -77,4 +79,73 @@
     width: 226px;
     height: 38px;
     display: block;
+}
+@media screen and (max-width: 1200px) {
+   .body{
+    width: 100%;
+    height: 100%;
+   }
+   .header{
+    display:flex
+
+   }
+   .menu{
+    gap: 250px;
+   }
+   .felso{
+    gap: 200px;
+   }
+   .also{
+    gap: 200px;
+   }
+  }
+  @media screen and (max-width: 1160px) {
+    .body{
+     width: 100%;
+     height: 100%;
+    }
+    .header{
+     display:flex
+ 
+    }
+    .menu{
+     gap: 220px;
+     
+    }
+    .felso{
+     gap: 180px;
+     width: 100%;
+     height: auto;
+    }
+    .also{
+     gap: 180px;
+    }
+
+    
+   }
+
+   @media screen and (max-width: 700px) {
+    .body{
+        width:100%;
+    }
+    .header{
+        width: auto;
+        display:block
+    }
+.menu{
+    display: block;
+    width: 100%;
+}
+.felso{
+    display: block;
+    width: 100%;
+}
+.also{
+    display: block;
+    width: 100%;
+}
+.img{
+    width: auto;
+}
+
 }
