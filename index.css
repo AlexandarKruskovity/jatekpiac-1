@@ -123,7 +123,15 @@
 
     
    }
+   @media screen and (max-width: 900px) {
+.body{
+    display: ;
+    width: 100%;
+}
 
+
+
+   }
    @media screen and (max-width: 700px) {
     .body{
         width:100%;
@@ -132,9 +140,7 @@
         width: auto;
         display:block
     }
-    .Home{
- 
-    }
+
 .menu{
     display: block;
     width: 100%;
