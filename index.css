@@ -47,34 +47,50 @@
 }
 .menu{
     margin: 50px;
-    display: block;
+    display: flex;
     gap: 100px;
 }
 .m1{
-    float: left;
+    display: block;
 
 }
 .m2{
     display: block;
 }
+.felso{
+    margin-left: 10px;
+    display: flex;
+    gap: 300px;
+}
+.gombok1{
+    display: flex;
+    gap: 300px;
+    margin-left: 15px;
+}
+.also{
+    margin-left: 10px;
+    display: flex;
+    gap: 300px;
+    margin-top: 20px;
+}
 
 .ar1{
     background-color: #090DF1;
     color:yellow;
-    width: 37%;
+    width: 100%;
     display: block;
 }
 .ar2{
     background-color: #090DF1;
     color:yellow;
-    width: 331px;
+    width: 478px;
     height: 38px;
     display: block;
 }
 .ar3{
     background-color: #090DF1;
     color:yellow;
-    width: 226px;
-    height: 38px;
+    width: 100%;
+    height: 30px;
     display: block;
 }
