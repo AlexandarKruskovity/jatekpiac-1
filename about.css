@@ -1,0 +1,242 @@
+
+
+
+
+body{
+    width: 100%;
+    margin: 0px;
+    
+}
+.header{
+    background-color: #6C4FD6;
+    border: 0px;
+    display: flex;
+    height: 150px;
+    
+    
+}
+#menu__toggle {
+    opacity: 0;
+  }
+  #menu__toggle:checked + .menu__btn > span {
+    transform: rotate(45deg);
+  }
+  #menu__toggle:checked + .menu__btn > span::before {
+    top: 0;
+    transform: rotate(0deg);
+  }
+  #menu__toggle:checked + .menu__btn > span::after {
+    top: 0;
+    transform: rotate(90deg);
+  }
+  #menu__toggle:checked ~ .menu__box {
+    right: 0 !important;
+  }
+  .menu__btn {
+    position: absolute;
+    top: 40px;
+    right: 20px;
+    width: 26px;
+    height: 26px;
+    cursor: pointer;
+    z-index: 1;
+    
+  }
+  .menu__btn > span,
+  .menu__btn > span::before,
+  .menu__btn > span::after {
+    display: block;
+    position: absolute;
+    width: 100%;
+    height: 2px;
+    background-color: #0c0c0c;
+    transition-duration: .25s;
+    visibility: hidden;
+  }
+  .menu__btn > span::before {
+    content: '';
+    top: -8px;
+  }
+  .menu__btn > span::after {
+    content: '';
+    top: 8px;
+  }
+  .menu__box {
+    display: block;
+    position: fixed;
+    top: 0;
+    right: -100%;
+    width: 300px;
+    height: 38px;
+    margin: 0;
+    padding: 80px 0;
+    list-style: none;
+    background-color: #5c0feb;
+    box-shadow: 2px 2px 6px rgba(0, 0, 0, .4);
+    transition-duration: .25s;
+    
+  }
+  .menu__item {
+    display: block;
+    padding: 12px 24px;
+    color: rgb(255, 255, 255);
+    font-family: 'Roboto', sans-serif;
+    font-size: 15px;
+    font-weight: 600;
+    text-decoration: none;
+    transition-duration: .25s;
+    text-align: right;
+
+  }
+  .menu__item:hover {
+    background-color: #CFD8DC;
+  }
+#bal_fejlec{
+    display: flex;
+}
+#logo_kep{
+    height: 100px;
+    
+}
+#menu{
+    display: flex;
+    margin-top: 1%;
+    
+}
+.Home{
+    width: 100px;
+    height:50px;
+    
+    margin-left: 15px;
+    margin-right: 50px;
+    align-items: center;
+}
+.About{
+    width: 100px;
+    height:50px;
+    margin-right: 50px;
+    background-color: red;
+}
+
+.Action{
+    width: 100px;
+    height:50px;
+    margin-right: 200px;
+}
+#tartalom{
+    background-image: url(img/nebula-2501324_1920.jpg);
+    height: 400px;
+    background-size: cover;
+    margin-top: -2%;
+    
+     
+    
+
+    
+}
+#szoveg{
+    color: white;
+    margin-left: 2%;
+    position: relative;
+    margin-top: 2%;
+    width: 85%;
+    
+    
+    
+}
+#cím{
+    margin-bottom: 5%;
+    
+}
+#felsorol{
+    margin-left: -3%;
+}
+#lablec{
+    background-color: #6C4FD6;
+    height: 120px;
+    width: 100%;
+    display: block;
+}
+#insta{
+    display: flex;
+}
+#insta_kep{
+    height: 50px;
+    margin-left: 1%;
+    margin-top: 5px;
+    
+}
+#insta_szoveg{
+    margin-left: 1%;
+}
+#email{
+    display: flex;
+
+}
+#email_kep{
+    height: 35px;
+    margin-left: 1%;
+    margin-top: 10px;
+}
+#email_szoveg{
+    margin-left: 1%;
+}
+@media only screen  and (max-width: 600px){
+    
+        
+    
+    body{
+        width: 100%;
+    }
+    .header{
+        display: block;
+        height: 200px;
+        
+        
+    }
+    #menu{
+        display: flex;
+        float: left;
+        margin: 0px;
+        margin-left: 0;
+        visibility: hidden;
+        
+        
+        
+        
+    }
+    .Home{
+        width: 80px;
+    }
+    .About{
+        width: 80px;
+    }
+    .Action{
+        width: 80px;
+    }
+    #tartalom{
+        
+        margin-top: 0%;
+        
+    }
+    #cím{
+        margin: 0px;
+    }
+    #szoveg{
+        margin-top: 0px;
+        width: 100%;
+        
+    }
+    #felsorol{
+        margin-bottom: 0px;
+    }
+    .menu__btn > span,
+.menu__btn > span::before,
+.menu__btn > span::after {
+    
+    visibility: visible;
+}
+a{
+    color: black;
+}
+}
