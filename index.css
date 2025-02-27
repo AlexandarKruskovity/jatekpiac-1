@@ -41,7 +41,7 @@
 .gallery__img {
     
     width: 100%;
-    max-width: fit-content;
+   
   height: auto;
     
 }
@@ -77,8 +77,9 @@
 .ar1{
     background-color: #090DF1;
     color:yellow;
-    width: 100%;
+    width: 480px;
     display: block;
+    height: 38px;
 }
 .ar2{
     background-color: #090DF1;
@@ -94,3 +95,190 @@
     height: 30px;
     display: block;
 }
+@media screen and (max-width: 1200px) {
+    .menu {
+      width: 90%;
+    }
+   
+    .felso{
+        gap: 180px;
+        margin-right: 10px;
+
+    }
+    .also{
+        gap: 180px;
+        margin-right: 10px;
+    }
+    .gombok1{
+        gap: 180px;
+        margin-right: 10px;
+    }
+    .ar1{
+        width: 90%;
+    }
+  }
+  @media screen and (max-width: 1177px) {
+
+.Action{
+    width: auto;
+    margin-top:30px ;
+    margin-right: 10px;
+
+}
+.header{
+    width: 100%;
+}
+
+    .menu {
+        width: 90%;
+      }
+     
+      .felso{
+          gap: 160px;
+          margin-right: 10px;
+  
+      }
+      .also{
+          gap: 150px;
+          margin-right: 10px;
+      }
+      .gombok1{
+          gap: 150px;
+          margin-right: 10px;
+      }
+      .ar1{
+          width: 90%;
+      }
+
+  }
+  @media screen and (max-width: 1140px) {
+
+    .menu {
+        width: 90%;
+        margin-top: 10px;
+        margin-left: 5px;
+        margin-right: 5px;
+      }
+     
+      .felso{
+          gap: 100px;
+          margin-right: 10px;
+          
+  
+      }
+      .also{
+          gap: 100px;
+          margin-right: 5px;
+      }
+      .gombok1{
+          gap: 100px;
+          margin-right: 10px;
+      }
+      .ar1{
+          width: 80%;
+      }
+      .ar2{
+        width: 80%;
+      }
+      .gallery__img{
+        width: 80%;
+      }
+
+  }
+  @media screen and (max-width: 913px) {
+
+    .menu {
+        width: 90%;
+        margin-top: 10px;
+        margin-left: 5px;
+        margin-right: 5px;
+      }
+     
+      .felso{
+          gap: 80px;
+          margin-right: 10px;
+          
+  
+      }
+      .also{
+          gap: 80px;
+          margin-right: 5px;
+      }
+      .gombok1{
+          gap: 80px;
+          margin-right: 10px;
+      }
+      .ar1{
+          width: 80%;
+      }
+      .ar2{
+        width: 80%;
+      }
+      .gallery__img{
+        width: 80%;
+      }
+
+  }
+  @media screen and (max-width: 880px) {
+
+
+    .menu {
+        width: 90%;
+        margin-top: 10px;
+        margin-left: 5px;
+        margin-right: 5px;
+      }
+      
+      .Home{
+        margin-left: 10px;
+      }
+     
+      .felso{
+          gap: 100px;
+          display: grid;
+          align-items:center ;
+        
+          
+          
+          
+  
+      }
+      .also{
+        gap: 100px;
+        display: grid;
+     
+        margin-top: 20px;
+      }
+      .gombok1{
+          gap: 100px;
+          margin-right: 10px;
+          display: block;
+      }
+      .ar1{
+          width: 80%;
+      }
+      .ar2{
+        width: 80%;
+      }
+      .ar3{
+        width: 60%;
+        gap: 30px;
+      }
+      
+
+
+  }
+  @media screen and (max-width: 680px) 
+  {
+.header{
+    display: block;
+}
+
+  }
+  @media screen and (max-width: 450px) 
+  {
+.menu{
+    display: grid;
+}
+
+  }
